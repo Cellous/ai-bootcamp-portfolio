@@ -1,1 +1,52 @@
+# Week 1 – Foundations of AI in Practice
+
+## Overview
+This week introduced the foundational concepts behind artificial intelligence and AI agents, with a focus on how agents perceive their environment, make decisions, and take action. The goal was to understand what an AI agent is and to set up a basic environment for hands-on experimentation.
+
+---
+
+## Core Concepts
+
+### What Is an AI Agent?
+An AI agent is a system that:
+- **Senses** information from its environment
+- **Thinks** by processing that information and making decisions
+- **Acts** based on those decisions to achieve a goal
+
+This sense–think–act loop is the core model behind many AI systems.
+
+### Sense–Think–Act Example
+A common example discussed was a robotic vacuum cleaner:
+- **Sensing:** Uses sensors to detect dirt and obstacles
+- **Thinking:** Decides where to move next based on sensor data
+- **Acting:** Moves around the room and cleans the floor
+
+This same pattern applies to software-based AI agents.
+
+---
+
+## Tools and Technologies Used
+- **Python** as the primary programming language
+- **Google Colab** for running code in the browser
+- **ChatGPT** for interacting with and testing AI behavior
+- Introductory exposure to platforms such as **Hugging Face** and **Google Gemini**
+
+---
+
+## Hands-On Work
+- Set up a Google Colab notebook
+- Verified a basic AI/chatbot environment was functioning
+- Ran simple Python code to confirm the development setup
+
+---
+
+## Key Takeaways
+- AI agents follow a structured sense–think–act process
+- Tools like Colab remove setup barriers and speed up experimentation
+- Even simple experiments help validate that an AI environment is working correctly
+
+---
+
+## Reflection
+This week established the foundation for more advanced agent design later in the bootcamp. Understanding the basic agent loop made it easier to see how more complex systems—such as rule-based and LLM-driven agents—are built on the same core principles.
 
