@@ -1,7 +1,5 @@
 # AI Bootcamp Portfolio
 
-# AI Bootcamp Portfolio
-
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange)
 ![Google Colab](https://img.shields.io/badge/Google-Colab-F9AB00)
