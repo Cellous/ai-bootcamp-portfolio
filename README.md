@@ -1,5 +1,15 @@
 # AI Bootcamp Portfolio
 
+# AI Bootcamp Portfolio
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange)
+![Google Colab](https://img.shields.io/badge/Google-Colab-F9AB00)
+![AI Agents](https://img.shields.io/badge/AI-Agents-purple)
+![LLMs](https://img.shields.io/badge/LLMs-Foundations-success)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+
+
 A hands-on AI Bootcamp portfolio covering foundations, rule-based agents, LLM-powered agents, and practical AI applications.
 
 This repository contains hands-on exercises, notes, and applied projects completed during an AI Bootcamp program.
