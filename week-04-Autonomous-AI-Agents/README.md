@@ -1,3 +1,11 @@
+![AI Bootcamp](https://img.shields.io/badge/AI%20Bootcamp-Portfolio-0A66C2?style=for-the-badge)
+![Autonomous Agents](https://img.shields.io/badge/Autonomous%20AI-Agents-6F42C1?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-Programming-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LLMs](https://img.shields.io/badge/LLMs-Reasoning%20%26%20Planning-FF6F00?style=for-the-badge)
+![Prompt Engineering](https://img.shields.io/badge/Prompt-Engineering-2DA44E?style=for-the-badge)
+![Workflow Automation](https://img.shields.io/badge/Workflow-Automation-0969DA?style=for-the-badge)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Agents%20Course-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
 ## 🤖 Week 4 — Autonomous AI Agents  
 **AI Bootcamp · Agents Track**
 
