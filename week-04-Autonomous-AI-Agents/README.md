@@ -43,3 +43,28 @@ https://hf.co/learn/agents-course
 - **Week:** 4  
 - **Progress:** In Progress  
 - **Cl**
+
+## 🧠 Week 4 — Step 4: Running Models Locally with Ollama  
+**Fallback Strategy for Credit / API Limits**
+
+### Purpose
+This step documents how to **run large language models locally using Ollama** as an alternative when cloud API credits are limited or unavailable. Local execution enables continued experimentation with autonomous agents while maintaining control over compute, privacy, and cost.
+
+### Tooling
+- **Ollama** — Local LLM runtime
+- **Models Tested / Available**
+  - `qwen3:4b`
+  - `qwen3:8b`
+  - `qwen3:30b`
+  - `qwen3-coder:30b`
+  - `qwen3-vl:4b / 8b / 30b`
+  - `gemma3:4b`
+
+### Installation
+Follow the official Ollama installation instructions:  
+https://ollama.com
+
+### Pulling a Model Locally
+Example command used during this module:
+```bash
+ollama pull qwen3:8b
