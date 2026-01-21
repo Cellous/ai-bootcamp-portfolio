@@ -26,5 +26,4 @@ This week focuses on setting up and becoming familiar with ChatGPT as a core AI 
 
 ## Notes
 - Message input was intentionally **not submitted**, per assignment instructions.
-- Screenshots are included for verification and recruiter review.
 
