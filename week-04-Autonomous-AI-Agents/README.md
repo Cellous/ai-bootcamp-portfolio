@@ -67,6 +67,19 @@ These patterns are intended for **freelance consulting, internal automation, and
 ### Purpose
 This step documents how to run large language models locally using **Ollama** as an alternative when cloud API credits are limited or unavailable. Local execution enables continued experimentation with autonomous agents while maintaining control over **cost, privacy, and compute resources**.
 
+### Reasoning Approaches: Chain-of-Thought (CoT) vs ReAct
+
+Two common reasoning approaches were explored during this module:
+
+- **Chain-of-Thought (CoT)** focuses on step-by-step internal reasoning to solve logic- or math-based problems. It is best suited for tasks that remain entirely within the model and do not require external information or actions.
+
+- **ReAct (Reason + Act)** extends reasoning by allowing the agent to interact with external tools through structured actions and observations. This approach is better suited for information-seeking and multi-step tasks that require retrieving data, checking procedures, or adapting based on new inputs.
+
+For agent-based systems, ReAct-style reasoning is more applicable because it mirrors real-world workflows: observe a situation, reason about it, take a safe action (such as querying a tool), and incorporate the result before responding.
+
+Recent models trained to “think before answering” use internal reasoning techniques at the training level rather than prompting strategies. In practice, agent design focuses on **tool usage and decision flow**, not exposing internal chain-of-thought to the user.
+
+
 ### Tooling
 - **Ollama** — Local LLM runtime  
 - **Models Tested / Available**
@@ -86,14 +99,4 @@ Example command used during this module:
 ```bash
 ollama pull qwen3:8b
 
-### Reasoning Approaches: Chain-of-Thought (CoT) vs ReAct
 
-Two common reasoning approaches were explored during this module:
-
-- **Chain-of-Thought (CoT)** focuses on step-by-step internal reasoning to solve logic- or math-based problems. It is best suited for tasks that remain entirely within the model and do not require external information or actions.
-
-- **ReAct (Reason + Act)** extends reasoning by allowing the agent to interact with external tools through structured actions and observations. This approach is better suited for information-seeking and multi-step tasks that require retrieving data, checking procedures, or adapting based on new inputs.
-
-For agent-based systems, ReAct-style reasoning is more applicable because it mirrors real-world workflows: observe a situation, reason about it, take a safe action (such as querying a tool), and incorporate the result before responding.
-
-Recent models trained to “think before answering” use internal reasoning techniques at the training level rather than prompting strategies. In practice, agent design focuses on **tool usage and decision flow**, not exposing internal chain-of-thought to the user.
