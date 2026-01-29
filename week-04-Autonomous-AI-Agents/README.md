@@ -79,6 +79,20 @@ For agent-based systems, ReAct-style reasoning is more applicable because it mir
 
 Recent models trained to “think before answering” use internal reasoning techniques at the training level rather than prompting strategies. In practice, agent design focuses on **tool usage and decision flow**, not exposing internal chain-of-thought to the user.
 
+## Security & Safe Agent Design Considerations
+
+When designing agent-based systems, it is important to account for the increased risk that comes with higher levels of autonomy. This module highlights several key security considerations relevant to agent design:
+
+- **Unintended Code Generation:** Large language models may occasionally generate unsafe or harmful commands while attempting to be helpful. Agents should never directly execute model-generated code without strict validation or sandboxing.
+
+- **Supply Chain Risk:** Running untrusted or compromised models could expose systems to harmful behavior. This risk is minimized by using well-known models and secure execution environments, but it should still be acknowledged in agent design.
+
+- **Prompt Injection:** Agents that retrieve external content (such as browsing the web or loading documents) may encounter malicious instructions embedded in text. This reinforces the need for input validation and controlled memory usage.
+
+- **Public Exposure Risk:** Agents exposed to public inputs can be misused through adversarial prompts designed to trigger unsafe actions. As agent capability increases, so does the importance of limiting execution privileges.
+
+For this project, the agent is intentionally designed as a **decision-support and training assistant only**. It uses simulated, read-only tools for information retrieval and guidance and does not execute system commands, interact with live infrastructure, or perform automated actions. This approach aligns with best practices for safe AI deployment and reduces the risk associated with autonomous execution.
+
 
 ### Tooling
 - **Ollama** — Local LLM runtime  
