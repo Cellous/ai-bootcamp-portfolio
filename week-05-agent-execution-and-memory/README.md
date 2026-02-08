@@ -25,6 +25,17 @@ This week focuses on how autonomous AI agents reason, act, and reflect over mult
 - Agent reasons about user input, performs an action, and reflects on memory state
 - Implemented using Python and Gradio in a notebook environment
 
+## Screenshots
+
+### Unit 2.2 — Agent Execution Loop (Reason → Act → Reflect)
+![Execution Loop UI](screenshots/unit2_2_execution_loop_ui.png)
+![Memory Recall](screenshots/unit2_2_memory_recall.png)
+
+### Unit 2.3 — Saving Actions in Memory (ActionStep)
+![ActionStep Logging](screenshots/unit2_3_actionstep_log.png)
+![Offline Gradio Chat](screenshots/unit2_3_gradio_chat.png)
+
+
 ### Unit 2.3 — Saving Actions in Memory (ActionStep)
 **Notebook:** `Week5_Unit2_3_Saving_Actions_in_Memory.ipynb`
 
