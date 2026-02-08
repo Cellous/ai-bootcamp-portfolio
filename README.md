@@ -21,5 +21,15 @@ This repository contains hands-on exercises, notes, and applied projects complet
 ## Structure
 Each folder corresponds to a specific bootcamp week and includes notes, experiments, and implementation artifacts.
 
+### Week 5 – Agent Execution & Memory
+
+- Implemented Reason → Act → Reflect execution loops
+- Built Gradio-based agent UIs
+- Added persistent memory and ActionStep logging
+- Demonstrated offline-first agent design (no paid APIs)
+
+
 ## Status
-Currently in **Week 4 – Intro to Agents**. Repository will continue to evolve throughout the program.
+Completed up through **Week 5 – Autonomous AI Agents (Execution Loops & Memory)**.  
+Includes working agent demos, execution loops, and persistent memory implementations.
+
