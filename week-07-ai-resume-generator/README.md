@@ -7,7 +7,7 @@
 ![Git](https://img.shields.io/badge/Version_Control-Git-orange?logo=git)
 ![Windows](https://img.shields.io/badge/Platform-Windows-blue?logo=windows)
 ![Linux](https://img.shields.io/badge/Platform-Linux-yellow?logo=linux)
-![Cross Platform](https://img.shields.io/badge/Workflow-Cros
+![Cross Platform](https://img.shields.io/badge/Workflow-Cross--Platform-success)
 
 ### Cross-Platform Recovery Experience
 
