@@ -4,7 +4,7 @@
 ![Cloud](https://img.shields.io/badge/Cloud-Firebase-orange)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
-# Week 06 – Agentic RAG Party Planner 🎉🤖
+# Week 06 – Agentic RAG Party Planner 
 
 ## Overview
 
