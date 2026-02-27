@@ -130,3 +130,16 @@ This project showcases applied AI in professional document automation and struct
 - SaaS Automation Tools
 
 - Workflow Optimization Systems
+
+---
+
+## Included Code Samples
+
+This folder contains selected, representative source files demonstrating:
+- AI prompt engineering for resume optimization
+- Next.js App Router patterns
+- API route design
+- Firebase authentication integration
+- Cross-platform Git recovery (Windows + Linux)
+
+> Note: Full application source omitted intentionally to keep the portfolio focused and readable.
