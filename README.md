@@ -28,8 +28,20 @@ Each folder corresponds to a specific bootcamp week and includes notes, experime
 - Added persistent memory and ActionStep logging
 - Demonstrated offline-first agent design (no paid APIs)
 
+### Week 7 – AI Resume Generator (Full-Stack)
+
+- Built a Next.js + TypeScript AI resume generator
+- Implemented prompt-driven resume optimization
+- Added live preview and structured output
+- Integrated Firebase authentication
+- Demonstrated cross-platform Git recovery (Windows + Linux)
+- Documented local development workflow with screenshots
 
 ## Status
-Completed up through **Week 5 – Autonomous AI Agents (Execution Loops & Memory)**.  
-Includes working agent demos, execution loops, and persistent memory implementations.
 
+Completed through **Week 7 – AI Resume Generator**.
+
+Includes:
+- Autonomous agent execution & memory (Week 5)
+- Agentic RAG workflows (Week 6)
+- Full-stack AI Resume Generator with live UI, prompt engineering, and cross-platform Git recovery (Week 7)
